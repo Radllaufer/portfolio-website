@@ -1,0 +1,84 @@
+/*
+    Colors
+    - #ff5000 orange-red
+    - #00afff blue
+    - #001620 dark-blue
+    - #dff5ff light-blue
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+    overflow-x: hidden;
+    color: #001620;
+}
+
+body {
+    position: relative;
+    padding: 5rem 5%;
+    background-color: #001620;
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+}
+
+    h1, h2, h3, h4, h5, h6, label {
+        text-align: center;
+            font-style: normal;
+            font-weight: 300;
+    }
+
+    h1 {
+        font-size: 4rem;
+            font-weight: 500;
+            text-transform: capitalize;
+            color: #70858f;
+    }
+
+    h2 {
+        font-size: 3rem;
+            font-weight: 400;
+            color: #0e1513;
+    }
+
+    h3, th {
+        font-size: 1.5rem;
+    }
+
+    h4, label {
+        text-align: left;
+        font-size: 1.2rem;
+    }
+
+    h5 {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    p {
+        font-family: "Source Sans Pro", "Arial", sans-serif;
+            font-size: 1.2rem;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.8rem;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    a {
+        color: inherit;
+            text-decoration: none;
+            cursor: pointer;
+    }

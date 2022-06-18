@@ -1,0 +1,29 @@
+.info {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+        padding: 1rem;
+        border-radius: 1rem;
+        max-width: 60rem; height: 20rem;
+    background-color: #dff5ff;
+    box-shadow: #70858f 0 0.4rem 0;
+}   
+    .info-left {
+        padding-right: 1rem;
+        width: 100%;
+    }
+
+    .name {
+        text-align: right;
+    }
+
+    .info-text {
+        text-align: right;
+    }
+
+    .temp-img {
+        width: 15rem; height: auto;
+        border-radius: 1rem;
+        background-color: #70858f;
+    }
