@@ -1,29 +1,90 @@
+/*
+    Colors
+    - #ff5000 orange-red
+    - #00afff blue
+    - #001620 dark-blue
+    - #dff5ff light-blue
+    - $70858f grey-blue
+
+*/
+
 .info {
-    position: relative;
     display: flex;
-    justify-content: space-between;
     margin: 0 auto;
-        padding: 1rem;
+        padding: 1rem 0.5rem;
         border-radius: 1rem;
-        max-width: 60rem; height: 20rem;
+        max-width: 60rem; height: 25rem;
     background-color: #dff5ff;
     box-shadow: #70858f 0 0.4rem 0;
-}   
-    .info-left {
-        padding-right: 1rem;
-        width: 100%;
+}
+    .left {
+        position: relative;
+            margin: 0 0.5rem;
+            width: 40rem; height: 23rem;
+            min-width: 20rem; max-width: 40rem;
     }
+        .left p {
+            margin: 1rem 0;
+            text-align: justify;
+        }
 
-    .name {
-        text-align: right;
-    }
+        .skills-container {
+            position: absolute;
+                bottom: 0;
+                /* margin-bottom: 0.5rem; */
+                padding: 0 0rem;
+                border-radius: 1rem;
+                width: 100%; height: 2.5rem;
+            display: flex;
+            justify-content: flex-start;
 
-    .info-text {
-        text-align: right;
-    }
+        }
+            i {
+                margin-right: 1.5rem;
+                font-size: 2.5rem;
+                color: #001620;
+            }
+                .fa-paintbrush {
+                    align-self: center;
+                    font-size: 2rem;
+                }
 
-    .temp-img {
-        width: 15rem; height: auto;
-        border-radius: 1rem;
-        background-color: #70858f;
+                .fa-github {
+                    position: absolute;
+                        right: 0;
+                        margin-right: 0;
+                    /* color: #70858f; */
+                }
+
+    .right {
+        margin: 0 0.5rem;
+            border-radius: 1rem;
+            width: 18rem; height: 23rem;
+            min-width: 18rem;
+        overflow: hidden;
     }
+        .info img {
+            width: 105%;
+        }
+
+
+/* --- Responsive --- */
+@media only screen and (max-width: 1068px) {
+
+}
+
+@media only screen and (max-width: 746px) {
+    .info {
+        flex-wrap: wrap-reverse;
+        max-width: 40rem; height: 50rem;
+    }
+        .right {
+            margin: 0 auto;
+        }
+}
+
+@media only screen and (max-width: 392px) {
+    .left, .right {
+        min-width: auto;
+    }
+}
