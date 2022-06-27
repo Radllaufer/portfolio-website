@@ -15,10 +15,11 @@
 
 html {
     height: 100%;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Comfortaa", sans-serif;
         font-style: normal;
         font-weight: 300;
         font-size: 16px;
+        text-transform: capitalize;
     overflow-x: hidden;
     color: #001620;
 }
@@ -41,23 +42,24 @@ body {
     h1 {
         font-size: 4rem;
             font-weight: 500;
-            text-transform: capitalize;
-            color: #005780;
+            color: #004260;
     }
 
     h2 {
-        font-size: 3rem;   
+        font-size: 3rem;
             font-weight: 400;
-            color: #0e1513;
+            color: #9fe1ff;
     }
 
     h3, th {
-        font-size: 1.5rem;
+        font-size: 2.5rem;
+        color: #dff5ff;
     }
 
     h4, label {
         text-align: left;
-        font-size: 1.2rem;
+        font-size: 2.2rem;
+        color: #dff5ff;
     }
 
     h5 {
@@ -66,10 +68,11 @@ body {
     }
 
     p {
-        font-family: "Source Sans Pro", "Arial", sans-serif;
+        font-family: "Nunito", "Arial", sans-serif;
             font-size: 1.15rem;
             font-style: normal;
-            font-weight: 400;
+            font-weight: 300;
+            text-transform: none;
             line-height: 1.6rem;
     }
 
@@ -85,6 +88,18 @@ body {
 
 
 /* --- Responsive --- */
+@media only screen and (max-width: 1450px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 942px) {
+    html {
+        font-size: 12px;
+    }
+}
+
 @media only screen and (max-width: 746px) {
     html {
         font-size: 10px;
