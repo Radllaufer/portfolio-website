@@ -103,30 +103,32 @@
     }
         .project img {
             width: 100%;
-            filter: brightness(80%);
+            filter: brightness(90%);
         }
 
         .project h3 {
             position: absolute;
+            margin: 0 0.5rem;
             right: 0; bottom: 4rem; left: 0;
         }
-            .bikeshop-seeboden h3 {
-                color: #e5ffdf;
-            }
         
-        .find-your-hat {
+        #bikeshopSeeboden h3 {
+            color: #e5ffdf;
+        }
+        
+        #findYourHat {
             background-color: #001828;
         }
-            .find-your-hat img {
-                filter: none;
+            #findYourHat img {
+                filter: brightness(100%) saturate(200%);
             }
 
-            .find-your-hat h3 {
+            #findYourHat h3 {
                 top: 4rem; right: 4rem; bottom: auto; left: auto;
                 color: #e1e0e6;
             }
             
-            .find-your-hat h4 {
+            #findYourHat h4 {
                 position: absolute;
                 font-family: "VT323";
                 top: 8rem; right: 4rem;
@@ -149,6 +151,20 @@
         .right {
             margin: 0 auto;
         }
+}
+
+@media only screen and (max-width: 446px) {
+    #bikeshopSeeboden {
+            display: flex;
+            justify-content: center;
+        }
+        #bikeshopSeeboden img {
+            width: auto; height: 105%;
+        }
+
+    #findYourHat img {
+        width: auto; height: 100%;
+    }
 }
 
 @media only screen and (max-width: 392px) {
